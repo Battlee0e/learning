@@ -7,16 +7,52 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+env/
+*.egg-info/
+.eggs/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
 .ipynb_checkpoints/
 
+# C / C++
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.d
+*.gch
+*.pch
+*.dSYM/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+cmake-build-*/
+compile_commands.json
+.cache/
+
+# Go
+*.test
+*.prof
+coverage.*
+go.work
+go.work.sum
+
 # Build output
+bin/
 dist/
 build/
 target/
 out/
-*.o
-*.exe
 
 # Secrets and local config
 .env
